@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{soul}
+\usepackage{soulutf8}
+\usepackage{mathtools}
+\usepackage{parskip}
+\pagestyle{empty}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{wrapfig}
+
+\RequirePackage{caption}
+\usepackage[english,russian]{babel}
+\graphicspath{ {images/} }
+\geometry{papersize={17.3 cm,24 cm}}
+\geometry{top=2cm}
+\geometry{left=2cm}
+\geometry{bottom=2cm}
+\textwidth=380pt
+\linespread{1}
+\begin{document}
+\begin{wrapfigure}{l}{0.26\textwidth}
+\includegraphics[width=0.26\textwidth]{r}
+\caption{}
+\end{wrapfigure}
+\noindent{Эти формулы, очевидно, являются обращением формул(17.12).\\}
+\-\quadОтсюда следует, что векторы r' и r" также параллельны соприкасающейся плоскости; в силу же условия $k\neq0$ выполняется неравенство $r'\times r"{\neq}0$(см. (17.10)). и, следовательно, r' и r" не коллинеарны. Обозначим теперь через $r_0$, $r'_0$, $r"_0$ векторы r, r', r" в некоторой фиксированной точке данной кривой Г, а через r - текущий вектор соприкасающейся плоскости; тогда смешанное произведение векторов $r-r_0$, $r'_0$, $r_0"$\ должно быть равно 0, так как все они параллельны соприкасающейся плоскости.(рис. 87)
+\begin{center}
+$(r-r_0, r_0, r"_0) = 0$
+\end{center}
+Это и есть уравнение указанной плоскости в векторном виде. в координатном виде оно запишется следующим образом:
+\begin{center}
+\begin{vmatrix}
+x-$x_0$ & y-$y_0$ & z-$z_0$\\
+x' & ${y^'}_0$ & ${z^'}_0$\\
+${x^''}_0$ & ${y^''}_0$ & ${z^''}_0$
+\end{vmatrix}
+= 0
+\end{center}
+\noindent{где r = (x, y, z), $r_0$ = ($x_0$, $y_0$, $z_0$), ${r^'}_0$ = (${x^'}_0$, ${y^'}_0$, ${z^'}_0$), ${r^''}_0$ =\\= (${x^''}_0$, ${y^''}_0$, ${z^''}_0$).}
+\par
+\normalsize{\noindent{\textbf{17.4 Центр кривизны и эфолюта прямой}}}
+\par
+\textbf{Определение 7.}
+\textit{Точка пространства, лежащая на главной нормали, проведенной в данной точке кривой, и находящаяся от этой точки кривой на расстоянии, равном радиусу кривизны R, в направлении вектора главной нормали \textbf{n}, называется центром кривизны кривой в указанной ее точке}(рис. 88).\\
+\-\quadТаким образом, если $\rho$ $-$ радиус-вектор центра кривизны, а \textbf{r}, как обычно, радиус-вектор данной точки кривой, то
+\begin{center}
+\textbf{$\rho$ = r + Rn}
+\end{center}
+или, так как R$=\frac{1}{k}$, а \textbf{n}$\underset{(17.8)}{=}\frac{1}{k}|\frac{dt}{ds}|=\frac{1}{k^2} \frac{{d^2}r}{d{s^2}}$, то
+\begin{center}
+\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad$\rho = r + \frac{{d^2}r}{d{s^2}}$ \quad\quad\quad\quad\quad\quad\quad\quad\textbf{(17.19)}\\
+\textbf{\linespread{5}}
+\line(1, 0){100} \\
+436
+\end{center}
+\end{document}
